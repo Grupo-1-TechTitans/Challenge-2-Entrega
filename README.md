@@ -34,8 +34,3 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 - **Processamento de Linguagem Natural (NLP)**: Capta e interpreta as interações baseadas em texto para fornecer respostas adequadas.
 
 Este projeto combina as melhores práticas de desenvolvimento web com tecnologia de IA para melhorar a eficiência e eficácia no suporte técnico.
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 2733775 (Salvando mudanças locais antes de fazer o merge)
