@@ -1,0 +1,23 @@
+
+
+.BarraLateral-custom {
+    width: 250px;
+    height: 100vh;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .BarraLateral-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o logo horizontalmente */
+    margin-bottom: 20px; /* Espaçamento opcional abaixo do logo */
+    text-align: center;
+    width: 100%;
+    height: 100px;
+
+  }
+  
+
+  
