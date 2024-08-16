@@ -5,10 +5,10 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import './NavbarCustom.css';
 import { Link } from 'react-router-dom';
 
-function NavbarCustom() {
+function NavbarCustom({ title }) {
     return (
         <div className="navbar-custom">
-            <h1 className="navbar-title">Home</h1>
+            <h1 className="navbar-title">{title}</h1> 
             <div className="navbar-search">
                 <Form className="search-form">
                     <FormControl type="text" placeholder="Procure" className="mr-sm-2 search-input" />
