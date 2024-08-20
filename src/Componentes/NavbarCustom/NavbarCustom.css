@@ -5,8 +5,7 @@
     margin-left: 50px;
     padding: 10px 20px;
     background-color: #F8F8F8;
-    gap: 50px;
-    
+   
     
   }
   
@@ -27,7 +26,7 @@
   
   .navbar-search {
     display: flex;
-    
+
   }
   
   .search-form {

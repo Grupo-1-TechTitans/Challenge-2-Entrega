@@ -14,7 +14,7 @@ function App() {
 
   return (
     <BrowserRouter>
-    
+      
       <Routes>
         <Route path='/' element={<SobreProjeto/>}/>
         <Route path='/Home' element={<Home/>}/>
