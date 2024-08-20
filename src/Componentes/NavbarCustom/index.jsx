@@ -8,7 +8,11 @@ import { Link } from 'react-router-dom';
 function NavbarCustom({ title }) {
     return (
         <div className="navbar-custom">
+<<<<<<< HEAD
             <h1 className="navbar-title">{title}</h1>
+=======
+            <h1 className="navbar-title">{title}</h1> 
+>>>>>>> 21facc7308ec2eb58a174fd956ec4fe2483d3537
             <div className="navbar-search">
                 <Form className="search-form">
                     <FormControl type="text" placeholder="Procure" className="mr-sm-2 search-input" />
