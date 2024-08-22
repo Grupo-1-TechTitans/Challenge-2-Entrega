@@ -13,7 +13,7 @@ function KnowledgeBase() {
     <div className='container'>
       
       <BarraLateral/>
-      <div>
+      <div className='main-content'>
       <NavbarCustom/>
 
       </div>
