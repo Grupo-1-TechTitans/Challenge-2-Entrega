@@ -1,26 +1,27 @@
-import { Button, Container } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
 
-import '../../app.css'
+import { Button, Container } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import BarraLateral from "../../Componentes/BarraLateral";
-import NavbarCustom from "../../Componentes/NavbarCustom";
-import Overview from "../../Componentes/Overview/index"
-
+import '../../app.css';
+import BarraLateral from '../../Componentes/BarraLateral';
+import NavbarCustom from '../../Componentes/NavbarCustom';
+import DetalhesProjeto from '../../Componentes/DetalhesProjeto'
+import Overview from "../../Componentes/Overview"
 function SobreProjeto() {
+
+
   return (
-    <div className="container">
-      <BarraLateral />
+    <div className='container'>
+      
+      <BarraLateral/>
       <div>
-        <NavbarCustom 
-          title="Sobre o Projeto"
-        />
-        <div className="overview">
-          <Overview />
-        </div>
+      <NavbarCustom/>
+      <Overview />
+      <DetalhesProjeto></DetalhesProjeto>
       </div>
+
     </div>
-  );
+  )
 }
 
-export default SobreProjeto;
+export default SobreProjeto
