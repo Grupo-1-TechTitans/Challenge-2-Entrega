@@ -7,10 +7,13 @@
 }
 
 .video-card h3 {
+    padding: 10px;
+    border-radius: 3px;
     font-size: 1.25rem;
     margin-bottom: 1rem;
     color: #f8f9fa;
-    background-color: #5b8feb;
+    background-color: #023CA2;
+    opacity: 0.73;
 }
 
 .video-wrapper {
