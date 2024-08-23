@@ -5,8 +5,8 @@ import "../../app.css";
 import "./style.css"
 import BarraLateral from "../../Componentes/BarraLateral";
 import NavbarCustom from "../../Componentes/NavbarCustom";
-import TicketsAi from "../../Componentes/TicketsAi";
-import TicketsTable from "../../Componentes/TicketsAi";
+import TicketsInfo from "../../Componentes/TicketsAi";
+import Solution from "../../Componentes/Solution";
 
 function Tickets() {
   return (
@@ -15,7 +15,10 @@ function Tickets() {
       <div className="main-content">
         <NavbarCustom />
         <div className="tickets-info">
-          <TicketsTable />
+          <TicketsInfo />
+        </div>
+        <div className="ai-solution">
+          <Solution />
         </div>
       </div>
     </div>

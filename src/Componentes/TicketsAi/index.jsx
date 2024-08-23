@@ -6,7 +6,7 @@ import ticketsData from '../../dados/tickets_data.json';
 
 import "./style.css";
 
-function TicketsTable() {
+function TicketsInfo() {
   return (
     <div className="tickets-container">
       <h3>Informações dos Tickets</h3>
@@ -55,4 +55,4 @@ function TicketsTable() {
   );
 }
 
-export default TicketsTable;
+export default TicketsInfo;
