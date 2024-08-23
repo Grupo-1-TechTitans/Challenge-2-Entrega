@@ -3,10 +3,10 @@
     justify-content: space-between;
     margin-top: 20px;
     min-height: 400px;
-
+    width: 100%;
 }
 
-.ai-solutions, .comments-section {
+.ai-solutions, .comment-section {
     background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
@@ -18,7 +18,7 @@
     text-align: center;
 }
 
-.comments-section {
+.comment-section {
     width: 65%;
     display: flex;
     flex-direction: column;
@@ -39,10 +39,20 @@
     margin-right: 10px;
 }
 
+.avatar-ai {
+    width: 70%;
+    height: 50%;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+
 .comment-text {
     background-color: #f1f1f1;
     border-radius: 15px;
     padding: 10px;
+    width: 70%;
 }
 
 .comment-input {

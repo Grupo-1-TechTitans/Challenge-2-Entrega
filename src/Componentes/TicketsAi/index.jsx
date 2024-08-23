@@ -1,8 +1,8 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
 import Form from "react-bootstrap/Form";
-import { FaPaperclip } from "react-icons/fa"
-import ticketsData from '../../dados/tickets_data.json';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 
 import "./style.css";
 
@@ -32,7 +32,7 @@ function TicketsInfo() {
               <td>Ativo</td>
               <td>Ticket Description</td>
               <td>
-                <a href="#"><FaPaperclip className="anexo-icon" /></a>
+                <a href="#" className="anexo-icon"><i class="bi bi-paperclip"></i></a>
               </td>
             </tr>
             <tr>
@@ -44,7 +44,7 @@ function TicketsInfo() {
               <td>Ativo</td>
               <td>Ticket Description</td>
               <td>
-                <a href="#"><FaPaperclip className="anexo-icon" /></a>
+                <a href="#" className="anexo-icon"><i class="bi bi-paperclip"></i></a>
               </td>
             </tr>
             

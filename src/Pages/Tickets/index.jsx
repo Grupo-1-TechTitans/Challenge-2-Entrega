@@ -2,11 +2,11 @@ import { Button, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "../../app.css";
-import "./style.css"
+import "./style.css";
 import BarraLateral from "../../Componentes/BarraLateral";
 import NavbarCustom from "../../Componentes/NavbarCustom";
 import TicketsInfo from "../../Componentes/TicketsAi";
-import Solution from "../../Componentes/Solution";
+import Commet from "../../Componentes/Comment";
 
 function Tickets() {
   return (
@@ -14,12 +14,8 @@ function Tickets() {
       <BarraLateral />
       <div className="main-content">
         <NavbarCustom />
-        <div className="tickets-info">
-          <TicketsInfo />
-        </div>
-        <div className="ai-solution">
-          <Solution />
-        </div>
+        <TicketsInfo />
+        <Commet />
       </div>
     </div>
   );

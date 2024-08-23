@@ -1,17 +1,20 @@
 import React from "react";
 import "./style.css";
 
-const Solution = () => {
+import ImageSrc from "../../assets/images/image.jpg"
+
+const Comment = () => {
   return (
     <div className="solution-container">
       <div className="ai-solutions">
+        <img src={ImageSrc} alt="" className="avatar-ai"/>
         <h3>Soluções Geradas por AI</h3>
         <p>Selecione o ticket acima para inciar</p>
         <button className="btn btn-primary">Visualizar</button>
       </div>
 
       {/* Seção de Comentários */}
-      <div className="comments-section">
+      <div className="comment-section">
         <h4>Comment</h4>
         <div className="comment">
           <img
@@ -36,4 +39,4 @@ const Solution = () => {
   );
 };
 
-export default Solution;
+export default Comment;
