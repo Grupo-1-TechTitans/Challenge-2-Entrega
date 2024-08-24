@@ -55,23 +55,24 @@ function DetalhesProjeto() {
             <h2 className='titulo'>Membros da Equipe</h2>
             <div className='blocoMembros'>
 
-            <Integrantes nome={'Geraldo Neves'} fotoLink={'https://github.com/Geraldnvs.png'}>
-            Design do projeto e front-end
-            </Integrantes>
-            <Integrantes nome={'João Oliveira'} fotoLink={'https://github.com/Johnvitordev.png'}>
-            Design do projeto e front-end
-            </Integrantes>
-            <Integrantes nome={'Mariana Leite'} fotoLink={'/Mariana.jpg'}>
-            Design do projeto e front-end
-            </Integrantes>
-            <Integrantes nome={'Mere Angela'} fotoLink={'https://github.com/Mereangela.png'}>
-            Design do projeto e front-end
-            </Integrantes>
-                
+                <Integrantes nome={'Geraldo Neves'} fotoLink={'https://github.com/Geraldnvs.png'}>
+                    Responsável pelo design, estruturação do projeto e desenvolvimento do front-end, garantindo uma experiência de usuário intuitiva e eficaz.
+                </Integrantes>
+                <Integrantes nome={'João Oliveira'} fotoLink={'https://github.com/Johnvitordev.png'}>
+                    Especialista em front-end, focado na implementação das interfaces do usuário e otimização da performance visual.
+                </Integrantes>
+                <Integrantes nome={'Mariana Leite'} fotoLink={'/Mariana.jpg'}>
+                    Responsável pela produção e edição do Vídeo Pitch 2, contribuindo para a comunicação clara e persuasiva do projeto.
+                </Integrantes>
+                <Integrantes nome={'Mere Angela'} fotoLink={'https://github.com/Mereangela.png'}>
+                    Co-responsável pela produção do Vídeo Pitch 2, focando na criação de um conteúdo visual impactante e envolvente.
+                </Integrantes>
+
+
             </div>
-            
-            
-            
+
+
+
         </div>
 
 
