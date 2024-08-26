@@ -7,15 +7,13 @@ import "./style.css";
 
 import BarraLateral from "../../Componentes/BarraLateral";
 import NavbarCustom from "../../Componentes/NavbarCustom";
-import TicketsInfo from "../../Componentes/TicketsInfo";
+import TicketsInfo from "../../Componentes/TicketsAi";
 import Commet from "../../Componentes/Comment";
 
 function Tickets() {
   return (
     <div className="container-page">
-      <BarraLateral
-        className="sidebar"
-      />
+      <BarraLateral/>
       <div className="main-content">
         <NavbarCustom/>
         <TicketsInfo />

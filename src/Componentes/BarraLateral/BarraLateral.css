@@ -1,23 +1,76 @@
-
-
 .BarraLateral-custom {
-    width: 250px;
-    height: 100vh;
-    border-radius: 15px;
-    background-color: white;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  }
-  
-  .BarraLateral-logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centraliza o logo horizontalmente */
-    margin-bottom: 20px; /* Espaçamento opcional abaixo do logo */
-    text-align: center;
-    width: 100%;
-    height: 100px;
+  width: 250px;
+  height: 100vh;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all 0.3s ease-in-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  max-width: 1440px;
+}
 
-  }
-  
+.BarraLateral-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+}
 
-  
+.hamburger {
+  display: none;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1001;
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #0d6efd;
+}
+
+
+.BarraLateral-custom.narrow {
+  width: 60px;
+}
+
+.BarraLateral-custom.narrow .menu-text,
+.BarraLateral-custom.narrow .BarraLateral-logo span {
+  display: none;
+}
+
+.BarraLateral-custom.narrow .BarraLateral-logo img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 768px) {
+  .BarraLateral-custom {
+    transform: translateX(-100%);
+  }
+
+  .BarraLateral-custom.open {
+    transform: translateX(0);
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.hidden {
+    display: none;
+  }
+
+}
+
+@media (min-width: 1441px) {
+  .BarraLateral-custom {
+    left: calc((100% - 1440px) / 2);
+  }
+}
