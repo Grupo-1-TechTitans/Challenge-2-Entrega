@@ -30,10 +30,16 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 
 ## PROJETO – REQUISITOS 
 
-- **Desenvolvido em 5 páginas**: O projeto foi desenvolvido em REACT e como padrão temos o index.html onde é renderizado o projeto e as 5 páginas são:  
-**1. - Sobre o Projeto - Contem os Nomes e fotos dos integrantes do grupo e o papel/função de cada um no desenvolvimento do projeto e Um texto contendo quais as tecnologias apresentadas no curso foram utilizados no desenvolvimento do projeto. O video pitch 1 e 2.**
-**2. - Knowledge Base - Um repositorio de conhecimento da empresa com os procedimentos fornecidos nos arquivos do desafio.**
-**3. - Tickets - Local onde serão disponibilizados as soluções sugeridas pela AI e onde o analista poderá conversar com ela e refinar a sugestão dada.**
-**4. - HOME - Um resumo dos tickets do service desk**
-**5. - Tela de login - Tela para realizar o login na plataforma**
+- **Desenvolvido em 5 páginas**: O projeto foi desenvolvido em REACT e como padrão temos o `index.html` onde é renderizado o projeto. As 5 páginas são:
+
+1. **Sobre o Projeto** - Contém os nomes e fotos dos integrantes do grupo, além do papel/função de cada um no desenvolvimento do projeto. Inclui também um texto detalhando quais tecnologias apresentadas no curso foram utilizadas no desenvolvimento do projeto, bem como os vídeos pitch 1 e 2.
+   
+2. **Knowledge Base** - Um repositório de conhecimento da empresa com os procedimentos fornecidos nos arquivos do desafio.
+
+3. **Tickets** - Local onde serão disponibilizadas as soluções sugeridas pela AI e onde o analista pode interagir com ela para refinar as sugestões dadas.
+
+4. **HOME** - Um resumo dos tickets do service desk.
+
+5. **Tela de login** - Tela para realizar o login na plataforma.
+
 
