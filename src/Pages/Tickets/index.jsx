@@ -7,7 +7,7 @@ import "./style.css";
 
 import BarraLateral from "../../Componentes/BarraLateral";
 import NavbarCustom from "../../Componentes/NavbarCustom";
-import TicketsInfo from "../../Componentes/TicketsAi";
+import TicketsInfo from "../../Componentes/TicketsInfo";
 import Commet from "../../Componentes/Comment";
 
 function Tickets() {
