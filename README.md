@@ -28,9 +28,12 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 - **Interface do Usuário (UI)**: Construída com React e React-Bootstrap, proporcionando uma interface limpa e profissional.
 - **Roteamento**: Gerenciado pelo React Router, facilita a navegação entre diferentes componentes da interface do usuário.
 
-## Integração com API da OpenAI
+## PROJETO – REQUISITOS 
 
-- **Geração de Respostas com IA**: Utiliza modelos de linguagem avançados para análise e geração de soluções para os chamados.
-- **Processamento de Linguagem Natural (NLP)**: Capta e interpreta as interações baseadas em texto para fornecer respostas adequadas.
+- **Desenvolvido em 5 páginas**: O projeto foi desenvolvido em REACT e como padrão temos o index.html onde é renderizado o projeto e as 5 páginas são:  
+1 - Sobre o Projeto - Contem os Nomes e fotos dos integrantes do grupo e o papel/função de cada um no desenvolvimento do projeto e Um texto contendo quais as tecnologias apresentadas no curso foram utilizados no desenvolvimento do projeto. O video pitch 1 e 2.
+2 - Knowledge Base - Um repositorio de conhecimento da empresa com os procedimentos fornecidos nos arquivos do desafio.
+3 - Tickets - Local onde serão disponibilizados as soluções sugeridas pela AI e onde o analista poderá conversar com ela e refinar a sugestão dada.
+4 - HOME - Um resumo dos tickets do service desk
+5 - Tela de login - Tela para realizar o login na plataforma
 
-Este projeto combina as melhores práticas de desenvolvimento web com tecnologia de IA para melhorar a eficiência e eficácia no suporte técnico.
