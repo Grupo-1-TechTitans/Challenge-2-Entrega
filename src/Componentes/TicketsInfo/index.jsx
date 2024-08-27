@@ -1,8 +1,8 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
 import Form from "react-bootstrap/Form";
-import 'bootstrap-icons/font/bootstrap-icons.css';
 
+import ticketsData from '../../dados/tickets_data.json';
 
 import "./style.css";
 

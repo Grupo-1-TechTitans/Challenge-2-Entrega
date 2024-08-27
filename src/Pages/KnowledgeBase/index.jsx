@@ -44,7 +44,7 @@ function KnowledgeBase() {
   }
 
   return (
-    <div className='container'>
+    <div className='container-page'>
       <BarraLateral />
       <div className='main-content'>
         <NavbarCustom />
