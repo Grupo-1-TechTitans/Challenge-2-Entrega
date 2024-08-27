@@ -1,21 +1,20 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.telaLogin{
-    width: 100%; 
+.telaLogin {
+    width: 100%;
     height: 100vh;
     overflow: hidden;
     margin: auto auto;
     display: flex;
     flex-direction: row;
-    border: 2px solid #a8a8a8a7;
     position: relative;
-    
 }
-.ladoAzul{
+
+.ladoAzul {
     display: flex;
     width: 1067px;
     height: 100%;
@@ -24,10 +23,9 @@
     justify-content: center;
     color: #fff;
     flex-direction: column;
-    
 }
 
-.ladoBranco{
+.ladoBranco {
     display: flex;
     height: 100%;
     background-color: #fff;
@@ -36,7 +34,7 @@
     padding: 120px;
 }
 
-.botaoMais{
+.botaoMais {
     display: flex;
     background-color: #0575E6;
     border-radius: 30px;
@@ -46,7 +44,7 @@
     padding-top: 8px;
 }
 
-.circ1{
+.circ1 {
     position: absolute;
     border: 2px solid #0575E6;
     border-radius: 50%;
@@ -55,7 +53,8 @@
     top: 60%;
     left: -10%;
 }
-.circ2{
+
+.circ2 {
     position: absolute;
     border: 2px solid #0575E6;
     border-radius: 50%;
@@ -65,7 +64,7 @@
     left: -15%;
 }
 
-a{
+a {
     text-decoration: none;
     color: #fff;
 }
