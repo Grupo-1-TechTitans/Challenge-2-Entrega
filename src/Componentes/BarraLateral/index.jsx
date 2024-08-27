@@ -1,35 +1,72 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import './BarraLateral.css'; 
+import './BarraLateral.css';
 import MenuLink from '../MenuLink';
 import { Link } from 'react-router-dom';
 
 function BarraLateral() {
   const [isOpen, setIsOpen] = useState(true);
   const [isNarrow, setIsNarrow] = useState(false);
+  const sidebarRef = useRef(null);
 
   useEffect(() => {
     const handleResize = () => {
-      setIsOpen(window.innerWidth > 768);
-      setIsNarrow(window.innerWidth <= 1440);
+      const windowWidth = window.innerWidth;
+      if (windowWidth <= 768) {
+        setIsOpen(false);
+        setIsNarrow(false);
+      } else if (windowWidth <= 1440) {
+        setIsOpen(true);
+        setIsNarrow(true);
+      } else {
+        setIsOpen(true);
+        setIsNarrow(false);
+      }
     };
 
     handleResize();
     window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   const toggleSidebar = () => {
-    setIsOpen(!isOpen);
+    if (window.innerWidth > 768) {
+      setIsNarrow(!isNarrow);
+    } else {
+      setIsOpen(!isOpen);
+    }
   };
- 
+
+  const handleMouseEnter = () => {
+    if (isNarrow) {
+      setIsNarrow(false);
+    }
+  };
+
+  const handleMouseLeave = () => {
+    if (!isNarrow && window.innerWidth <= 1440) {
+      setIsNarrow(true);
+    }
+  };
+
   return (
     <>
       <button className={`hamburger ${isOpen ? 'hidden' : ''}`} onClick={toggleSidebar}>
         <i className="bi bi-list"></i>
       </button>
-      <div className={`d-flex flex-column flex-shrink-0 p-3 BarraLateral-custom ${isOpen ? 'open' : ''} ${isNarrow ? 'narrow' : ''}`}>
+      <div
+        ref={sidebarRef}
+        className={`d-flex flex-column flex-shrink-0 p-3 BarraLateral-custom ${isOpen ? 'open' : ''} ${isNarrow ? 'narrow' : ''}`}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
+        <button className="toggle-button" onClick={toggleSidebar}>
+          <i className={`bi ${isNarrow ? 'bi-chevron-right' : 'bi-chevron-left'}`}></i>
+        </button>
         <Link to="/" className="d-flex BarraLateral-logo align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
           <img src="/logo.png" alt="Tech Titans" className="" />
           <span className="fs-5">Tech Titans</span>
