@@ -39,9 +39,45 @@ function TicketsInfo() {
                 <td>
                     <Form.Check type="checkbox" name="ticketSelect" />
                 </td>
-              <td>343234</td>
+              <td>343244</td>
+              <td>Media</td>
+              <td>Ativo</td>
+              <td>Ticket Description</td>
+              <td>
+                <a href="#" className="anexo-icon"><i class="bi bi-paperclip"></i></a>
+              </td>
+            </tr>
+            <tr>
+                <td>
+                    <Form.Check type="checkbox" name="ticketSelect" />
+                </td>
+              <td>343274</td>
               <td>Alta</td>
               <td>Ativo</td>
+              <td>Ticket Description</td>
+              <td>
+                <a href="#" className="anexo-icon"><i class="bi bi-paperclip"></i></a>
+              </td>
+            </tr>
+            <tr>
+                <td>
+                    <Form.Check type="checkbox" name="ticketSelect" />
+                </td>
+              <td>345234</td>
+              <td>Media</td>
+              <td>Ativo</td>
+              <td>Ticket Description</td>
+              <td>
+                <a href="#" className="anexo-icon"><i class="bi bi-paperclip"></i></a>
+              </td>
+            </tr>
+            <tr>
+                <td>
+                    <Form.Check type="checkbox" name="ticketSelect" />
+                </td>
+              <td>343334</td>
+              <td>Baixa</td>
+              <td>Desativado</td>
               <td>Ticket Description</td>
               <td>
                 <a href="#" className="anexo-icon"><i class="bi bi-paperclip"></i></a>

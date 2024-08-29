@@ -1,29 +1,57 @@
-import React from 'react';
-import { Form, Button, Container } from 'react-bootstrap';
-import './LoginForm.css'
+import React from "react";
+import { useState } from "react";
+
+import { Form, Button } from "react-bootstrap";
+import "./LoginForm.css";
 
 function LoginForm() {
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+
+  const handleSubimit = (event) => {
+    event.preventDefault();
+
+    alert("Enviando os dados:" + username + " - " + password);
+  };
+
   return (
-    <div className="login-container" >
-      <h2>Olá!</h2>
-      <p>Seja bem vindo</p>
+    <div className="login-container">
+      <div className="input-container">
+        <Form onSubmit={handleSubimit}>
+          <h2 className="titulo">Seja Bem-vindo!</h2>
+          <Form.Group controlId="formBasicEmail">
+            <Form.Control
+              className="input-field"
+              type="email"
+              placeholder="  Email Address"
+              onChange={(e) => setUsername(e.target.value)}
+            />
+          </Form.Group>
 
-      <Form>
-        <Form.Group  controlId="formBasicEmail">
-          <Form.Control  className='campoTexto' type="email" placeholder="Email Address" />
-        </Form.Group>
+          <Form.Group controlId="formBasicPassword">
+            <Form.Control
+              className="input-field"
+              type="password"
+              placeholder="  Password"
+              onChange={(e) => setPassword(e.target.value)}
+            />
+          </Form.Group>
 
-        <Form.Group controlId="formBasicPassword">
-          <Form.Control className='campoTexto' type="password" placeholder="Password" />
-        </Form.Group>
-
-        <Button className='campoTexto' variant="primary" type="submit" block>
-          Login
-        </Button>
-        <div >
-          <a className='forgot' href="#">Forgot Password</a>
+        <div className="recall-forget">
+          <a href="#">
+            Esqueceu a senha?
+          </a>
         </div>
-      </Form>
+          <Button className="btn" variant="primary" type="submit" block>
+            Login
+          </Button>
+        </Form>
+        <div className="signup-link">
+          <p>
+            Não tem uma conta? <a href="#">Registrar</a>
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

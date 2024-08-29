@@ -1,36 +1,24 @@
+import { Button, Container } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import { Button, Container } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import BarraLateral from "../../Componentes/BarraLateral";
+import NavbarCustom from "../../Componentes/NavbarCustom";
+import "./Logar.css";
 
-import '../../app.css';
-import BarraLateral from '../../Componentes/BarraLateral';
-import NavbarCustom from '../../Componentes/NavbarCustom';
-import './Logar.css'
-import LoginForm from '../../Componentes/LoginForm';
+import LoginForm from "../../Componentes/LoginForm";
+import LoginAzul from "../../Componentes/LoginAzul";
 
 function Logar() {
-
-
   return (
-    <div className='telaLogin'>
-
-      <div className='ladoAzul'>
-      <div className='circ1' />
-      <div className='circ2'/>
-      <h1>Tech Titans</h1>
-      <p>Tecnologia com foco em eficiência</p>
-      <div className='botaoMais'>
-        <a href="/"><p>Mais</p></a>
-        </div>
+    <div className="telaLogin">
+      <div className="ladoAzul">
+        <LoginAzul />
       </div>
-      <div className='ladoBranco'>
+      <div className="ladoBranco">
         <LoginForm />
-
       </div>
-      
-
     </div>
-  )
+  );
 }
 
-export default Logar
+export default Logar;
