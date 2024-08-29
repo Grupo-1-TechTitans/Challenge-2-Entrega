@@ -16,6 +16,9 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
     ```bash
     npm install
     ```
+    ```bash
+    npm install @google/generative-ai
+    ```
 
 2. **Execute o projeto:**
 
