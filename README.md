@@ -1,6 +1,6 @@
 # Projeto React + Vite com React-Bootstrap e React Router
 
-Este projeto é uma aplicação React que utiliza React-Bootstrap para estilização e React Router para o gerenciamento de rotas. O objetivo é desenvolver um Assistente de Suporte Técnico alimentado por Inteligência Artificial Generativa, utilizando a API da OpenAI para fornecer respostas automáticas e análise de chamados.
+Este projeto é uma aplicação React que utiliza React-Bootstrap para estilização e React Router para o gerenciamento de rotas. O objetivo é desenvolver um Assistente de Suporte Técnico alimentado por Inteligência Artificial Generativa, utilizando a API da Google GEMINI para fornecer respostas automáticas e análise de chamados.
 
 ## Pré-requisitos
 
