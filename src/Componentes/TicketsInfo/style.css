@@ -75,3 +75,26 @@
   color: #007bff; 
   font-size: 1.2rem;
 }
+
+.modalgpt{
+  
+}
+
+.modal-dialog{
+  margin: 30px auto;
+  height: 80vh;
+  width: 900px;
+  box-sizing: border-box;
+}
+.modal-content{
+  margin: auto -200px;
+  height: 80vh;
+  width: 200%;
+}
+
+.modal-body{
+  height: 90%;
+  width: 90%;
+  overflow: scroll;
+  margin: auto;
+}
