@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 import { Form, Button } from "react-bootstrap";
-import "./LoginForm.css";
+import "./style.css";
 
 
 function LoginForm() {
@@ -44,7 +44,7 @@ function LoginForm() {
           <div className="recall-forget">
             <a href="#">Esqueceu a senha?</a>
           </div>
-          <Button className="btn" variant="primary" type="submit" block>
+          <Button className="btn-login" variant="primary" type="submit" block>
             Login
           </Button>
         </Form>
