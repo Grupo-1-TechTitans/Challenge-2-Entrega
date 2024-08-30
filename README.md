@@ -1,6 +1,6 @@
 # Projeto React + Vite com React-Bootstrap e React Router
 
-Este projeto é uma aplicação React que utiliza React-Bootstrap para estilização e React Router para o gerenciamento de rotas. O objetivo é desenvolver um Assistente de Suporte Técnico alimentado por Inteligência Artificial Generativa, utilizando a API da OpenAI para fornecer respostas automáticas e análise de chamados.
+Este projeto é uma aplicação React que utiliza React-Bootstrap para estilização e React Router para o gerenciamento de rotas. O objetivo é desenvolver um Assistente de Suporte Técnico alimentado por Inteligência Artificial Generativa, utilizando a API da Google GEMINI para fornecer respostas automáticas e análise de chamados.
 
 ## Pré-requisitos
 
@@ -16,7 +16,7 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
     ```bash
     npm install
     ```
-
+    
 2. **Execute o projeto:**
 
     ```bash
@@ -28,9 +28,18 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 - **Interface do Usuário (UI)**: Construída com React e React-Bootstrap, proporcionando uma interface limpa e profissional.
 - **Roteamento**: Gerenciado pelo React Router, facilita a navegação entre diferentes componentes da interface do usuário.
 
-## Integração com API da OpenAI
+## PROJETO – REQUISITOS 
 
-- **Geração de Respostas com IA**: Utiliza modelos de linguagem avançados para análise e geração de soluções para os chamados.
-- **Processamento de Linguagem Natural (NLP)**: Capta e interpreta as interações baseadas em texto para fornecer respostas adequadas.
+- **Desenvolvido em 5 páginas**: O projeto foi desenvolvido em REACT e como padrão temos o `index.html` onde é renderizado o projeto. As 5 páginas são:
 
-Este projeto combina as melhores práticas de desenvolvimento web com tecnologia de IA para melhorar a eficiência e eficácia no suporte técnico.
+1. **Sobre o Projeto** - Contém os nomes e fotos dos integrantes do grupo, além do papel/função de cada um no desenvolvimento do projeto. Inclui também um texto detalhando quais tecnologias apresentadas no curso foram utilizadas no desenvolvimento do projeto, bem como os vídeos pitch 1 e 2.
+   
+2. **Knowledge Base** - Um repositório de conhecimento da empresa com os procedimentos fornecidos nos arquivos do desafio.
+
+3. **Tickets** - Local onde serão disponibilizadas as soluções sugeridas pela AI e onde o analista pode interagir com ela para refinar as sugestões dadas.
+
+4. **HOME** - Um resumo dos tickets do service desk.
+
+5. **Tela de login** - Tela para realizar o login na plataforma.
+
+

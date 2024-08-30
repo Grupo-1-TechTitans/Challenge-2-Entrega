@@ -28,7 +28,7 @@ function DetalhesProjeto() {
                 <div className='quadradotexto'>
                     <h3>Tecnologias empregadas:</h3>
                     <p>
-                        UI Interativa: Construção de interfaces dinâmicas e responsivas usando React.
+                        UI Interativa: Construção de interfaces dinâmicas usando React.
                     </p>
                     <p>
                         Componentes Reutilizáveis: Utilização de componentes para formulários, visualização de chamados e interações.
@@ -65,7 +65,7 @@ function DetalhesProjeto() {
                     Responsável pela produção e edição do Vídeo Pitch 2, contribuindo para a comunicação clara e persuasiva do projeto.
                 </Integrantes>
                 <Integrantes nome={'Mere Angela'} fotoLink={'https://github.com/Mereangela.png'}>
-                    Co-responsável pela produção do Vídeo Pitch 2, focando na criação de um conteúdo visual impactante e envolvente.
+                    Responsável pela produção e edição do Vídeo Pitch 2, contribuindo para a comunicação clara e persuasiva do projeto.
                 </Integrantes>
 
 

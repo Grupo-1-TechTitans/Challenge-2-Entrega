@@ -27,6 +27,8 @@
     overflow-y: auto;
     margin-bottom: 10px;
     width: 65%; /* Ajuste para melhorar o layout em telas maiores */
+    max-height: 500px;
+    overflow: scroll;
 }
 
 .comment {
@@ -35,11 +37,27 @@
     margin-bottom: 15px;
 }
 
+.comment.bot {
+    align-items: flex-start;
+}
+
+.comment.user-message {
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
 .avatar {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin-right: 10px;
+}
+
+.comment.user-message .avatar {
+    margin-right: 0;
+    margin-left: 10px;
+    order: 2;
 }
 
 .avatar-ai {
@@ -53,6 +71,13 @@
     border-radius: 15px;
     padding: 10px;
     width: 70%;
+}
+
+.comment.user-message .comment-text {
+    background-color: #007bff;
+    color: white;
+    width: auto;
+    max-width: 70%;
 }
 
 .comment-input {
@@ -96,9 +121,6 @@
         margin-right: 0;
         margin-bottom: 10px;
     }
-
-    
-  
 }
 
 @media (max-width: 575px) {
@@ -113,7 +135,6 @@
     }
 
     .comment-input {
-        
         display: inline-block;
         flex-direction: column;
         align-items: stretch;
@@ -124,6 +145,4 @@
         margin-bottom: 10px;
         width: 90%;
     }
-
-  
 }
