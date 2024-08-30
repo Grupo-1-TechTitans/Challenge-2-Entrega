@@ -12,7 +12,7 @@ function LoginForm() {
   const handleSubimit = (event) => {
     event.preventDefault();
 
-    alert("Enviando os dados:" + username + " - " + password);
+    
    
   };
 
@@ -44,7 +44,7 @@ function LoginForm() {
           <div className="recall-forget">
             <a href="#">Esqueceu a senha?</a>
           </div>
-          <Button className="btn-login" variant="primary" type="submit" block>
+          <Button className="btn-login" variant="primary" type="submit" block href="home">
             Login
           </Button>
         </Form>
