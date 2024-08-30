@@ -10,10 +10,16 @@
     justify-content: center;
     padding-top: 8px;
 }
+
+.text, 
 .botaoMais a {
     color: #fff;
     text-decoration: none;
     position: relative;
+}
+
+.text {
+    width: 300px;
 }
 
 .circ1{

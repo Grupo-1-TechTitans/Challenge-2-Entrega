@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import "./LoginForm.css";
 
+
 function LoginForm() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -12,10 +13,13 @@ function LoginForm() {
     event.preventDefault();
 
     alert("Enviando os dados:" + username + " - " + password);
+   
   };
 
   return (
     <div className="login-container">
+      
+    
       <div className="input-container">
         <Form onSubmit={handleSubimit}>
           <h2 className="titulo">Seja Bem-vindo!</h2>
@@ -37,11 +41,9 @@ function LoginForm() {
             />
           </Form.Group>
 
-        <div className="recall-forget">
-          <a href="#">
-            Esqueceu a senha?
-          </a>
-        </div>
+          <div className="recall-forget">
+            <a href="#">Esqueceu a senha?</a>
+          </div>
           <Button className="btn" variant="primary" type="submit" block>
             Login
           </Button>
