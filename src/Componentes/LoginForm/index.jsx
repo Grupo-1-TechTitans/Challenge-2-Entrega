@@ -12,8 +12,6 @@ function LoginForm() {
   const handleSubimit = (event) => {
     event.preventDefault();
 
-    
-   
   };
 
   return (
