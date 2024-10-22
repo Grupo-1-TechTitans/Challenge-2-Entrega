@@ -1,0 +1,85 @@
+.navbar-custom {
+    display: flex;
+    width: calc(100% - 50px);
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-left: 50px;
+    padding: 10px 20px;
+    background-color: #F8F8F8;
+    gap: 30px;
+    
+    
+  }
+  
+  .navbar-title {
+    font-size: 48px;
+    flex-grow: 1;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .navbar-title::after {
+    content: '';
+    display: block;
+    width: 222px;
+    height: 3px;
+    background-color: #0568D6;
+    margin-top: 5px;
+  }
+  
+  .navbar-search {
+    display: flex;
+    
+    
+  }
+  
+  .search-form {
+    position: relative;
+  }
+  
+  .search-input {
+    width: 300px;
+    padding: 8px 10px;
+    border-radius: 50px;
+    background-color: #F1F1F1;
+    border: none;
+    outline: none;
+  }
+  
+  .search-input::placeholder {
+    color: #c0c0c0;
+  }
+  
+  .navbar-search i {
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+
+  .botaoLogin {
+    background-image: linear-gradient(to right, #033497, #0568D6);
+    color: white !important;
+    font-size: large;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 120px;
+    justify-content: space-around;
+    
+  }
+  .botaoLogin a{
+    text-decoration: none; 
+    color: inherit; 
+    font-weight: normal; 
+    font-style: normal; 
+    background-color: transparent; 
+    border: none; 
+  }
+  
+  .espaco{
+    margin-right: 10px;
+  }
+  .espaco1{
+    margin-right: 10px;
+  }
