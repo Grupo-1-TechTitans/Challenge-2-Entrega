@@ -1,14 +1,6 @@
 import React, { useState } from "react";
-import {
-  GoogleGenerativeAI,
-  HarmCategory,
-  HarmBlockThreshold
-} from "@google/generative-ai";
 import "./style.css";
 import ImageSrc from "../../assets/images/image.jpg";
-
-const apiKey = "AIzaSyBxsQ9XPzTqd-NmLZdhoDYv_VVMKrNgxqY"; // Certifique-se de definir a chave de API corretamente
-const genAI = new GoogleGenerativeAI(apiKey);
 
 const Comment = () => {
   const [messages, setMessages] = useState([
@@ -33,35 +25,21 @@ const Comment = () => {
     setLoading(true);
 
     try {
-      const model = genAI.getGenerativeModel({
-        model: "gemini-1.5-flash",
-        systemInstruction:
-          "Responda a pergunta de maneira clara e direta. A resposta vai ser renderizada em um site entao forneça a resposta em formato HTML",
-      });
-
-      const chatSession = model.startChat({
-        generationConfig: {
-          temperature: 1,
-          topP: 0.95,
-          topK: 64,
-          maxOutputTokens: 8192,
-          responseMimeType: "text/plain",
+      // Fazendo uma requisição POST ao servidor Flask
+      const response = await fetch("http://127.0.0.1:5000/chat", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
         },
-        history: [
-          {
-            role: "user",
-            parts: [
-              {
-                text: input,
-              },
-            ],
-          },
-        ],
+        body: JSON.stringify({ msg: input }), // Enviar a pergunta do usuário para o Flask
       });
 
-      const botResponse = await chatSession.sendMessage(input);
-      console.log(botResponse)
-      const botMessage = { user: "bot", text: botResponse.response.text() };
+      if (!response.ok) {
+        throw new Error("Erro ao obter resposta do servidor.");
+      }
+
+      const data = await response.json();
+      const botMessage = { user: "bot", text: data.response }; // Espera que a resposta do Flask tenha um campo `response`
       setMessages((prevMessages) => [...prevMessages, botMessage]);
     } catch (error) {
       console.error("An error occurred:", error);
@@ -113,7 +91,7 @@ const Comment = () => {
             placeholder="Digite sua pergunta..."
             disabled={loading}
           />
-          <button className="btn btn-primary" onClick={sendMessage} disabled={loading}>
+          <button className="btn btn-primary" onClick={sendMessage} onKeyDown={e => e.key === 'Enter' && sendMessage()} disabled={loading}>
             {loading ? "Enviando..." : "Enviar"}
           </button>
         </div>
