@@ -42,7 +42,7 @@ function LoginForm() {
           <div className="recall-forget">
             <a href="#">Esqueceu a senha?</a>
           </div>
-          <Button className="btn-login" variant="primary" type="submit" block href="home">
+          <Button className="btn-login" variant="primary" type="submit" block href="/Home">
             Login
           </Button>
         </Form>
