@@ -113,7 +113,33 @@ function TicketsInfo() {
               <td>343234</td>
               <td>Alta</td>
               <td>Ativo</td>
-              <td>O usuario não consegue  logar no sistema Y</td>
+              <td>O usuario não consegue realizar o login no sistema Y</td>
+              <td>
+                <a href="#" className="anexo-icon" onClick={handleShow}><i className="bi bi bi-robot"></i></a>
+              </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <Form.Check type="checkbox" name="ticketSelect" />
+                </td>
+              <td>343234</td>
+              <td>Alta</td>
+              <td>Ativo</td>
+              <td>Erro na pagina de Configuração</td>
+              <td>
+                <a href="#" className="anexo-icon" onClick={handleShow}><i className="bi bi bi-robot"></i></a>
+              </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <Form.Check type="checkbox" name="ticketSelect" />
+                </td>
+              <td>343234</td>
+              <td>Media</td>
+              <td>Ativo</td>
+              <td>Organização de Gestão de Usuários</td>
               <td>
                 <a href="#" className="anexo-icon" onClick={handleShow}><i className="bi bi bi-robot"></i></a>
               </td>
