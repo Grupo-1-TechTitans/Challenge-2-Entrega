@@ -6,14 +6,15 @@ import MenuLink from '../MenuLink';
 import { Link } from 'react-router-dom';
 
 function BarraLateral() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(window.innerWidth > 1100);
   const [isNarrow, setIsNarrow] = useState(false);
   const sidebarRef = useRef(null);
+  const hamburgerRef = useRef(null);
 
   useEffect(() => {
     const handleResize = () => {
       const windowWidth = window.innerWidth;
-      if (windowWidth <= 768) {
+      if (windowWidth <= 1100) {
         setIsOpen(false);
         setIsNarrow(false);
       } else if (windowWidth <= 1440) {
@@ -34,7 +35,7 @@ function BarraLateral() {
   }, []);
 
   const toggleSidebar = () => {
-    if (window.innerWidth > 768) {
+    if (window.innerWidth > 1100) {
       setIsNarrow(!isNarrow);
     } else {
       setIsOpen(!isOpen);
@@ -53,12 +54,61 @@ function BarraLateral() {
     }
   };
 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        sidebarRef.current && 
+        !sidebarRef.current.contains(event.target) &&
+        hamburgerRef.current &&
+        !hamburgerRef.current.contains(event.target) &&
+        window.innerWidth <= 1100
+      ) {
+        setIsOpen(false);
+      }
+    };
+
+    const handleMouseLeave = () => {
+      if (window.innerWidth <= 1100) {
+        setIsOpen(false);
+      }
+    };
+
+    const handleResize = () => {
+      if (window.innerWidth > 1100) {
+        setIsOpen(true);
+      } else {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    window.addEventListener('resize', handleResize);
+    
+    if (sidebarRef.current) {
+      sidebarRef.current.addEventListener('mouseleave', handleMouseLeave);
+    }
+
+    handleResize();
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      window.removeEventListener('resize', handleResize);
+      if (sidebarRef.current) {
+        sidebarRef.current.removeEventListener('mouseleave', handleMouseLeave);
+      }
+    };
+  }, []);
+
   return (
     <>
-      <button className={`hamburger ${isOpen ? 'hidden' : ''}`} onClick={toggleSidebar}>
-        <i className="bi bi-list"></i>
+      <button 
+        ref={hamburgerRef}
+        className={`hamburger ${isOpen && window.innerWidth <= 1100 ? 'hidden' : ''}`} 
+        onClick={toggleSidebar}
+      >
+        ☰
       </button>
-      <div
+      <div 
         ref={sidebarRef}
         className={`d-flex flex-column flex-shrink-0 p-3 BarraLateral-custom ${isOpen ? 'open' : ''} ${isNarrow ? 'narrow' : ''}`}
         onMouseEnter={handleMouseEnter}
