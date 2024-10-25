@@ -10,8 +10,7 @@
 }
 
 .input-container {
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .titulo {
@@ -56,7 +55,7 @@
 
 .btn-login {
     width: 100%;
-    height: 50px;
+    padding: 13px;
     border: none;
     outline: none;
     border-radius: 40px;
@@ -67,5 +66,9 @@
     font-size: 15px;
     text-align: center;
     margin: 20px 0 10px;
+}
+
+.video-background {
+    width: 120px;
 }
 

@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import "./style.css";
 
+import roboLoginVideo from "../../assets/video/robo_login.mp4";
 
 function LoginForm() {
   const [username, setUsername] = useState("");
@@ -19,6 +20,14 @@ function LoginForm() {
       
     
       <div className="input-container">
+        <video
+        src={roboLoginVideo}
+        alt="Robo Gif"
+        className="video-background"
+        autoPlay
+        loop
+        muted
+        />
         <Form onSubmit={handleSubimit}>
           <h2 className="titulo">Seja Bem-vindo!</h2>
           <Form.Group controlId="formBasicEmail">

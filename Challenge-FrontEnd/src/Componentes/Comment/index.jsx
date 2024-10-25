@@ -6,7 +6,7 @@ const Comment = () => {
   const [messages, setMessages] = useState([
     {
       user: "bot",
-      text: "Como posso te ajudar hoje?",
+      text: "Olá, como posso te ajudar hoje?",
     },
   ]);
   const [input, setInput] = useState("");
@@ -53,9 +53,10 @@ const Comment = () => {
   return (
     <div className="solution-container">
       <div className="ai-solutions">
+        <h4>Theo</h4>
         <img src={ImageSrc} alt="" className="avatar-ai" />
         <h3>Soluções Geradas por AI</h3>
-        <p>Digite uma pergunta abaixo para começar</p>
+        <p>Com o Theo a tecnologia se torna mais humana</p>
       </div>
 
       {/* Seção de Chatbot */}
@@ -70,7 +71,7 @@ const Comment = () => {
               <img
                 src={
                   msg.user === "bot"
-                    ? "https://isobarscience-1bfd8.kxcdn.com/wp-content/uploads/2020/09/default-profile-picture1.jpg"
+                    ? ImageSrc
                     : "https://isobarscience-1bfd8.kxcdn.com/wp-content/uploads/2020/09/default-profile-picture1.jpg"
                 }
                 alt="foto de perfil"
