@@ -57,7 +57,7 @@ function LoginForm() {
         </Form>
         <div className="signup-link">
           <p>
-            Não tem uma conta? <a href="#">Registrar</a>
+            Não tem uma conta? <a href="#">Entre em contato com o seu gestor</a>
           </p>
         </div>
       </div>
