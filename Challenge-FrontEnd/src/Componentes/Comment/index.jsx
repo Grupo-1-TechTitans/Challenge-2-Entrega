@@ -89,13 +89,15 @@ const Comment = () => {
             type="text"
             value={input}
             onChange={handleInputChange}
+            onKeyDown={e => e.key === 'Enter' && sendMessage()}
             placeholder="Digite sua pergunta..."
             disabled={loading}
           />
-          <button className="btn btn-primary" onClick={sendMessage} onKeyDown={e => e.key === 'Enter' && sendMessage()} disabled={loading}>
+          <button className="btn btn-primary" onClick={sendMessage} disabled={loading}>
             {loading ? "Enviando..." : "Enviar"}
           </button>
         </div>
+
       </div>
     </div>
   );
