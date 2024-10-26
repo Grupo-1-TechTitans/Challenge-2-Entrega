@@ -6,13 +6,13 @@
         "Estado": "Resolvido",
         "Resolvido": "2024-02-09 00:00:00",
         "Categoria": "Outros Sistemas",
-        "Subcategoria": "Libera\u00e7\u00e3o de Acesso",
-        "Sintoma": "Atualiza\u00e7\u00e3o de Acesso",
+        "Subcategoria": "Liberação de Acesso",
+        "Sintoma": "Atualização de Acesso",
         "Qualificacao": "Acima de 300Km",
         "Grupo": "N1-OUTROS",
-        "Coment": "Aguardando atendimento ",
+        "Coment": "Aguardando atendimento",
         "Resolucao": "Impact network alone culture exist deal area.",
-        "Descricao": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem "
+        "Descricao": "Solicitação de atualização de acesso ao sistema para usuários com deslocamento superior a 300 km, aguardando aprovação do grupo N1-OUTROS."
     },
     {
         "Num": "INC3843571",
@@ -21,13 +21,13 @@
         "Estado": "Resolvido",
         "Resolvido": "2024-03-05 00:00:00",
         "Categoria": "Equipamento de TI",
-        "Subcategoria": "Admiss\u00e3o",
+        "Subcategoria": "Admissão",
         "Sintoma": "Ativar Ponto de Rede",
-        "Qualificacao": "Ordem de Produ\u00e7\u00e3o",
+        "Qualificacao": "Ordem de Produção",
         "Grupo": "N2-LEG-SAT",
-        "Coment": "Aguardando atendimento ",
+        "Coment": "Aguardando atendimento",
         "Resolucao": "About into nearly water realize.",
-        "Descricao": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem "
+        "Descricao": "Ativação de ponto de rede para novo colaborador em processo de admissão, necessitando suporte do grupo N2-LEG-SAT."
     },
     {
         "Num": "INC8699730",
@@ -35,14 +35,14 @@
         "Atualizado_em": "2024-04-29 00:00:00",
         "Estado": "Resolvido",
         "Resolvido": "2024-04-13 00:00:00",
-        "Categoria": "Outras Solicita\u00e7\u00f5es",
-        "Subcategoria": "Outras Solicita\u00e7\u00f5es",
-        "Sintoma": "Empr\u00e9stimo de Equipamento",
-        "Qualificacao": "Suporte a Instala\u00e7\u00e3o e Configura\u00e7\u00e3o de Aplicativos",
+        "Categoria": "Outras Solicitações",
+        "Subcategoria": "Outras Solicitações",
+        "Sintoma": "Empréstimo de Equipamento",
+        "Qualificacao": "Suporte a Instalação e Configuração de Aplicativos",
         "Grupo": "TELEFONIA",
-        "Coment": "Aguardando atendimento ",
+        "Coment": "Aguardando atendimento",
         "Resolucao": "Forget crime resource door only. Sit six day.",
-        "Descricao": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem "
+        "Descricao": "Empréstimo temporário de equipamento, com suporte solicitado para instalação e configuração de aplicativos pelo grupo TELEFONIA."
     },
     {
         "Num": "INC6807209",
@@ -52,12 +52,12 @@
         "Resolvido": "2024-04-11 00:00:00",
         "Categoria": "Acessos",
         "Subcategoria": "Suporte Funcional",
-        "Sintoma": "Criar Item de Configura\u00e7\u00e3o \u2013 Aplica\u00e7\u00f5es",
-        "Qualificacao": "Ordem de Produ\u00e7\u00e3o",
+        "Sintoma": "Criar Item de Configuração – Aplicações",
+        "Qualificacao": "Ordem de Produção",
         "Grupo": "N1-OUTROS",
-        "Coment": "Aguardando atendimento ",
+        "Coment": "Aguardando atendimento",
         "Resolucao": "However picture agree pass report through.",
-        "Descricao": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem "
+        "Descricao": "Criação de item de configuração para aplicativos específicos, direcionado ao grupo N1-OUTROS, aguardando suporte funcional."
     },
     {
         "Num": "INC7284500",
@@ -66,13 +66,13 @@
         "Estado": "Resolvido",
         "Resolvido": "2024-01-28 00:00:00",
         "Categoria": "Outros Sistemas",
-        "Subcategoria": "Controle de Acesso e Rel\u00f3gio de Ponto",
+        "Subcategoria": "Controle de Acesso e Relógio de Ponto",
         "Sintoma": "Outros",
         "Qualificacao": "Outros",
         "Grupo": "N2-FS-EX",
-        "Coment": "Aguardando atendimento ",
+        "Coment": "Aguardando atendimento",
         "Resolucao": "Manager major newspaper rock mind.",
-        "Descricao": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem "
+        "Descricao": "Solicitação para controle de acesso e registro de ponto, com o grupo N2-FS-EX responsável pelo atendimento e resolução."
     },
     {
         "Num": "INC8884652",
@@ -80,14 +80,14 @@
         "Atualizado_em": "2024-07-08 00:00:00",
         "Estado": "Fechado",
         "Resolvido": "2024-01-23 00:00:00",
-        "Categoria": "Servi\u00e7os de TI",
-        "Subcategoria": "Configura\u00e7\u00e3o de Equipamento",
-        "Sintoma": "Criar Item de Configura\u00e7\u00e3o \u2013 Aplica\u00e7\u00f5es",
-        "Qualificacao": "Sistema N\u00e3o SAP",
+        "Categoria": "Serviços de TI",
+        "Subcategoria": "Configuração de Equipamento",
+        "Sintoma": "Criar Item de Configuração – Aplicações",
+        "Qualificacao": "Sistema Não SAP",
         "Grupo": "N2-ATIVOS-IC",
-        "Coment": "Aguardando atendimento ",
+        "Coment": "Aguardando atendimento",
         "Resolucao": "There floor run bag should partner lay cover.",
-        "Descricao": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem "
+        "Descricao": "Configuração de equipamento não SAP, solicitada ao grupo N2-ATIVOS-IC para criação de item de configuração de aplicações."
     },
     {
         "Num": "INC1067907",
@@ -98,11 +98,11 @@
         "Categoria": "Equipamento de TI",
         "Subcategoria": "Sistema Labware",
         "Sintoma": "Suporte",
-        "Qualificacao": "Sistema N\u00e3o SAP",
-        "Grupo": "N1-N\u00c3O\u00a0SAP",
-        "Coment": "Aguardando atendimento ",
+        "Qualificacao": "Sistema Não SAP",
+        "Grupo": "N1-NÃO SAP",
+        "Coment": "Aguardando atendimento",
         "Resolucao": "Decision TV industry goal position.",
-        "Descricao": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem "
+        "Descricao": "Suporte solicitado para o sistema Labware (não SAP), destinado ao grupo N1-NÃO SAP, aguardando atendimento."
     },
     {
         "Num": "INC9690263",
@@ -111,13 +111,13 @@
         "Estado": "Resolvido",
         "Resolvido": "2024-04-03 00:00:00",
         "Categoria": "Equipamento de TI",
-        "Subcategoria": "Empr\u00e9stimo de Equipamento",
-        "Sintoma": "Transfer\u00eancia de Equipamento",
-        "Qualificacao": "Ordem de Produ\u00e7\u00e3o",
+        "Subcategoria": "Empréstimo de Equipamento",
+        "Sintoma": "Transferência de Equipamento",
+        "Qualificacao": "Ordem de Produção",
         "Grupo": "N2-FS-EX",
-        "Coment": "Aguardando atendimento ",
+        "Coment": "Aguardando atendimento",
         "Resolucao": "Concern above next role.",
-        "Descricao": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem "
+        "Descricao": "Solicitação para transferência de equipamento, ligada ao processo de ordem de produção, com grupo N2-FS-EX responsável."
     },
     {
         "Num": "INC4987187",
@@ -126,13 +126,13 @@
         "Estado": "Resolvido",
         "Resolvido": "2024-05-18 00:00:00",
         "Categoria": "Suporte a Equipamento",
-        "Subcategoria": "Admiss\u00e3o",
-        "Sintoma": "Configura\u00e7\u00e3o de Equipamento",
-        "Qualificacao": "Suporte a Instala\u00e7\u00e3o e Configura\u00e7\u00e3o de Aplicativos",
+        "Subcategoria": "Admissão",
+        "Sintoma": "Configuração de Equipamento",
+        "Qualificacao": "Suporte a Instalação e Configuração de Aplicativos",
         "Grupo": "N1-OUTROS",
-        "Coment": "Aguardando atendimento ",
+        "Coment": "Aguardando atendimento",
         "Resolucao": "Join reduce allow eat side.",
-        "Descricao": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem "
+        "Descricao": "Configuração de equipamento para novo colaborador, abrangendo instalação e configuração de aplicativos com o suporte do grupo N1-OUTROS."
     },
     {
         "Num": "INC1415464",
